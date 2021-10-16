@@ -18,3 +18,7 @@
  - Listas de projetos em minecraft
  - Guia de contribuição
 
+
+Exemplo image: 
+![Cachorro](https://folhago.com.br/wp-content/uploads/2021/01/dog-2785074_1920.jpg)
+
