@@ -73,8 +73,7 @@ sob ela. Caso contrário, não gerará energia alguma.
 
 - Painel Solar
 
-  O painel solar é uma fonte de energia um pouco mais detalhada do que as que
-vimos até agora. Ela possui 2 estados (ligado e desligado) que são mudados de acordo
+  O painel solar é uma fonte de energia um pouco mais complexa. Ela possui 2 estados (ligado e desligado) que são mudados de acordo
 com o período atual do dia. Além disso, ela possui 2 modos: Diurno e Noturno. Quando 
 está no modo Diurno, ela gera energia contínua enquanto estiver de dia, deixando de 
 gerar quando chega a noite. Já no modo Noturno, acontece o contrário: ela gerará energia
