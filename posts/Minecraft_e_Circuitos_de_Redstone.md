@@ -1,4 +1,4 @@
-Minecraft e os Circuitos de Redstone
+. Minecraft e os Circuitos de Redstone
 
   Minecraft é um videogame de construção sandbox e de mundo aberto, onde os jogadores 
 interagem com um ambiente tridimensional totalmente modificável feito de blocos de uma unidade 
@@ -14,14 +14,14 @@ mecanismos e automatizar tarefas do contidiano do jogador, através da interaç�
 determinados itens e blocos. Possui esse nome devido ao seu principal meio de transmissão de energia: 
 o pó de redstone, que é um minério que pode ser coletado através da mineração.
 
-Energia no Minecraft
+. Energia no Minecraft
 
   A energia no Minecraft funciona de modo semelhante à energia do mundo real. 
 Ela pode ser transmitida de ponto a ponto e possibilita a mudança de estado de 
 determinados objetos dentro do jogo, como portas, lâmpadas e elementos dos circuitos 
 de redstone.
 
-.Transmissão de Energia
+. Transmissão de Energia
 
   Como dito anteriormente, a energia no Minecraft propraga-se, principalmente, 
 através do pó de redstone, que precisa ser colocado em cima dos blocos e estar 
@@ -38,7 +38,7 @@ Observação: quando se trata de blocos, a energia não é transmitida de bloco 
 nem de bloco para pó de restone, apenas de pó de redstone para bloco e de bloco para repetidor 
 (será visto posteriormente).
 
-.Fontes de Energia   
+. Fontes de Energia   
 
    As fontes de energia, como o próprio nome já diz, são responsáveis por gerar energia. 
  A seguir, podemos ver algumas das principais fontes de energia e suas características.
@@ -87,7 +87,7 @@ precisa estar ligada diretamente com o céu.
        
 ![Painel](images/Painel.jpeg)
           
-.Potência de energia  
+. Potência de energia  
      
   Ademais, os fios de redstone possuem a ideia de nível de potência de energia. 
 Ao energizar os fios de redstone, a energia é propragada por, no máximo, 15 unidades 
