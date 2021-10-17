@@ -67,9 +67,69 @@ Nesse caso, somente quando as duas alavanças então ligadas a lâmpada acende. 
 
 ## Porta `OR`
 
+A porta `OR` tem resultado ligado quando ao menos uma das suas entradas estiver ligadas. Pode-se utilizar quantas portas forem necessárias para o circuito, mas no geral, utiliza-se a versão padrão, com duas portas. Esta versão é descrita dessa forma:
+
+Entrada 1 | Entradas 2 | Saida
+----------|------------|------
+0 | 0 | 0
+0 | 1 | 1
+1 | 0 | 1
+1 | 1 | 1
+
+A representação gráfica dessa porta, é geralmente definida da seguinte forma:
+
 ![Porta lógica OR](images/or.png)
 
+Em minecraft, podemos criar um OR dessa forma:
+
 ![Porta lógica OR - Minecraft](images/or_minecraft.gif)
+
+Onde, a lâmpada é ligada quando qualquer uma das alavancas forem ligadas.
+
+## Porta `NOT`
+
+A porta `NOR`, também conhecida como inversor, possue apenas uma entrada e uma saida, a saida é o inverso da entrada. Dessa forma:
+
+Entradas | Saida
+---------|------
+0 | 1
+1 | 0
+
+Sua representação gráfica é:
+
+![Porta lógica NOT](images/not.png)
+
+Em minecraft, esta porta é simples:
+
+![Porta lógica NOT - Minecraft](images/not_minecraft.gif)
+
+# Representação Algêbrica
+
+Para representar circuitos de forma simples e para facilitar a estudos de simplificação de circuitos, desenvolveu-se uma forma de representar as portas lógicas de forma matemática.
+
+Nessa notação, um `AND` é representado por o sinal de multiplicação. Assim:
+
+```
+X = A*B
+```
+
+Isto quer dizer que a saida, que é chamada de `X` é definida como a porta `AND` com as entradas `A` `B`. Isto é equivalente a:
+
+![Porta lógica AND](images/and.png)
+
+Já o `OR` é escrito com o simbolo de soma, assim:
+
+```
+X = A+B
+```
+
+Isto é equivalente a um circuito formado por duas entradas `A` e `B` que alimantam um `OR `e sua saida `X`.
+
+A porta `NOT` é escrita como sua entrada com uma barra em cima. Por exemplo, o circuito onde temos duas entradas conectadas em um OR e a saida conectada em um `NOT` é descrito na forma gráfica e matemática a seguir:
+
+![OR e NOT](images/circuito-or-not.png)
+
+Perceba que em ambos as formas, é possivel conectar os componentes de forma que a saida de uma porta é usada como entrada para outro componente. Com essa ideia, é possivel criar circuitos complexos, da forma que se desejar.
 
 # Links:
 
