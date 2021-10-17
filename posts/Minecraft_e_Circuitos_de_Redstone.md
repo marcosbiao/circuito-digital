@@ -1,6 +1,12 @@
 # Minecraft e os Circuitos de Redstone
 
-Minecraft é um videogame de construção sandbox e de mundo aberto, onde os jogadores têm a possibilidade de criar diferentes mundos que possuem um ambiente tridimensional totalmente modificável feito de blocos de uma unidade cúbica. Os mundos no Minecraft são baseados na vida real, possuindo conceitos como o ciclo do dia e noite, gravidade (exceto nos blocos) e energia. Além disso, o Minecraft possui um modo multiplayer onde os jogadores podem compartilhar seus mundo com outros jogadores.
+Minecraft é um videogame de construção sandbox e de mundo aberto, onde os jogadores têm a 
+possibilidade de criar diferentes mundos que possuem um ambiente tridimensional totalmente
+modificável feito de blocos de uma unidade cúbica. Os mundos no Minecraft são baseados na 
+vida real, possuindo conceitos como o ciclo do dia e noite, gravidade (exceto nos blocos) e 
+energia. Em relação ao compartilhamento de mundos, estes podem ser compartilhados de duas formas:
+de modo offline, atráves do envio dos arquivos do mundo do jogador para
+outros jogadores; ou em tempo real, atráves de servidores. 
 
 O ambiente do jogo oferece recursos que podem ser utilizados para a execução de atividades 
 como a caça, mineração, construção de estruturas e a fabricação de itens e ferramentas. Dentre os 
