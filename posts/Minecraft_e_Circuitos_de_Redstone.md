@@ -29,7 +29,7 @@ ligado uns com os outros para que ocorra a transmissão de energia. Essas ligaç
 popularmente chamadas de fios de redstone devido a sua semelhança com os fios elétricos
 (ver imagem abaixo).
 
-[Fios](/images/Fios.jpeg)
+![Fios](/images/Fios.jpeg?raw=true)
 
   Outra forma de transmitir energia é através de alguns blocos específicos, como 
 o bloco de pedra e seus derivados. Eles são energizados através do contato com os fios 
