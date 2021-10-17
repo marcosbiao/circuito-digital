@@ -75,5 +75,5 @@ Nesse caso, somente quando as duas alavanças então ligadas o bloco de luz acen
 
  - O próximos post é: []()
  - O post anterior a este é: []()
- - Seção com todos os artigos: [sumário](/#sumario)
+ - Seção com todos os artigos: [sumário](../)
 
