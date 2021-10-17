@@ -2,7 +2,7 @@
 
 Antes de falar sobre circuito digital, é necessário voltar um passo atrás e enteder o que é a **representação digital** e a diferença entre a **representação analógica**. Ambos são formas de representar dados, pórem suas características são diferentes. Um exemplo de aparelho que utilizia a representação análogica, é o termômetro de mercúrio, como este:
 
-![Termômetro](termometro.jpeg)
+![Termômetro](images/termometro.jpeg)
 
 Neste aparelho, a representação da temperatura está relacionada diretamente com o materia dentro do termômetro, assim, qualquer variação nesse material, há uma variação na representação da temperatura, além disso, não se consegue dizer com precisão exata o valor da temperatura, pois há sempre pequenas variações, diz se que esse valor é um dado contínuo. Em geral, essas são as características básicas da representação analógica, um dispositívo mecânico que possue um dado contínuo. 
 
@@ -57,7 +57,7 @@ Entrada 1 | Entradas 2 | Saida
 
 Em diagramas de circuito, a porta lógica `AND` é desenhada dessa forma:
 
-![Porta lógica AND](posts/and.png)
+![Porta lógica AND](images/and.png)
 
 Em minecraft, podemos criar um AND dessa forma:
 
@@ -67,9 +67,9 @@ Nesse caso, somente quando as duas alavanças então ligadas o bloco de luz acen
 
 ## Porta `OR`
 
-![Porta lógica OR](posts/or.png)
+![Porta lógica OR](images/or.png)
 
-![Porta lógica OR - Minecraft](posts/or_minecraft.gif)
+![Porta lógica OR - Minecraft](images/or_minecraft.gif)
 
 # Links:
 
