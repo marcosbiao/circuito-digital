@@ -26,7 +26,7 @@ Ela pode ser transmitida de ponto a ponto e possibilita a mudança de estado de
 determinados objetos dentro do jogo, como portas, lâmpadas e elementos dos circuitos 
 de redstone.
 
-# Transmissão de Energia
+## Transmissão de Energia
 
  Como dito anteriormente, a energia no Minecraft propraga-se, principalmente, 
 através do pó de redstone, que precisa ser colocado em cima dos blocos e estar 
@@ -43,7 +43,7 @@ Observação: quando se trata de blocos, a energia não é transmitida de bloco 
 nem de bloco para pó de restone, apenas de pó de redstone para bloco e de bloco para repetidor 
 (será visto posteriormente).
 
-# Fontes de Energia   
+## Fontes de Energia   
 
   As fontes de energia, como o próprio nome já diz, são responsáveis por gerar energia. 
  A seguir, podemos ver algumas das principais fontes de energia e suas características.
@@ -58,7 +58,7 @@ Se estiver levantada, não gerará energia nenhuma.
 
 ![Alavanca](images/Alavanca.jpeg)
 
-## Placa de Pressão
+### Placa de Pressão
 
  As placas de pressão também são bastante utilizadas pelos jogadores novatos. Elas 
 são inseridas no chão e são pressionadas enquanto alguma entidade (jogadores, animais, 
@@ -69,7 +69,7 @@ sobre ela. Caso contrário, não gerará energia alguma.
 
 ![Placa](images/Placa.jpeg)
 
-## Tocha de Redstone
+### Tocha de Redstone
 
 As tochas de redstone são uma fonte de energia um pouco diferente das que vimos 
 até agora. Elas também possuem dois estados: acesa (gera energia) e apagada 
@@ -79,7 +79,7 @@ ela esteja em contato direto com um bloco energizado.
 
 ![Tocha](images/Tocha.jpeg)   
 
-## Painel Solar
+### Painel Solar
 
 O painel solar é uma fonte de energia um pouco mais complexa. Ela possui 2 estados (ligado e desligado) que são mudados de acordo
 com o período atual do dia. Além disso, ela possui 2 modos: Diurno e Noturno. Quando 
@@ -91,7 +91,7 @@ precisa estar ligada diretamente com o céu.
        
 ![Painel](images/Painel.jpeg)
           
-# Potência de energia  
+## Potência de energia  
      
 Ademais, os fios de redstone possuem a ideia de nível de potência de energia. 
 Ao energizar os fios de redstone, a energia é propragada por, no máximo, 15 unidades 
@@ -105,7 +105,7 @@ bloco, a energia será anulada, o que pode ser um problema a depender do tamanho
 Felizmente, o Minecraft disponibiliza um item que prolonga essa carga chamada de repetidor, 
 que será vista com mais detalhes a seguir.
 
-## Repetidor
+### Repetidor
 
 O repetidor é um elemento indipensável em circuitos de redstone maiores. Ele é responsável
 por prolongar a carga por mais 15 unidades de distância (blocos) dos fios de redstone.
