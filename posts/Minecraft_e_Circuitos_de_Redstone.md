@@ -80,7 +80,7 @@ sob ela. Caso contrário, não gerará energia alguma.
 vimos até agora. Ela possui 2 estados (ligado e desligado) que são mudados de acordo
 com o período atual do dia. Além disso, ela possui 2 modos: Diurno e Noturno. Quando 
 está no modo Diurno, ela gera energia contínua enquanto estiver de dia, deixando de 
-gerar quando chega a noite. Já no modo Noturno, aconte o contrário: ela gerará energia
+gerar quando chega a noite. Já no modo Noturno, acontece o contrário: ela gerará energia
 contínua enquanto estiver de noite, deixando de gerar quando estiver de dia. 
 Observação: para exercer sua função, ela não pode estar sob nenhum bloco, ou seja, 
 precisa estar ligada diretamente com o céu.      
