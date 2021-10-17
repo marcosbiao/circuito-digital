@@ -65,7 +65,7 @@ são inseridas no chão e são pressionadas enquanto alguma entidade (jogadores,
 monstros ou itens que possui movimentação) estiver sobre ela. As placas de pressão também 
 possuem dois estados: quando está sendo pressionada (ligado) e quando não está sendo 
 pressionada (desligada). Ela só gerará energia se, e somente se, alguma entidade estiver 
-sob ela. Caso contrário, não gerará energia alguma.
+sobre ela. Caso contrário, não gerará energia alguma.
 
 ![Placa](images/Placa.jpeg)
 
