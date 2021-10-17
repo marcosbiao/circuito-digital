@@ -63,7 +63,7 @@ Em minecraft, podemos criar um AND dessa forma:
 
 ![Porta lógica AND - Minecraft](images/and_minecraft.gif)
 
-Nesse caso, somente quando as duas alavanças então ligadas o bloco de luz acende. Não é necessario se preocupar nesse momento como esse blocos aparentemente aleatórios formam um `AND`, o leitor precisa apenas entender o funcionamento da saida.
+Nesse caso, somente quando as duas alavanças então ligadas a lâmpada acende. Não é necessario se preocupar nesse momento como esse blocos aparentemente aleatórios formam um `AND`, o leitor precisa apenas entender o funcionamento da saida.
 
 ## Porta `OR`
 
