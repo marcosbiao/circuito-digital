@@ -34,5 +34,5 @@ No geral, os circuitos digitais possuem entradas de dados, e formas de saida que
 
  - O próximos post é: []()
  - O post anterior a este é: []()
- - Seção com todos os artigos: [sumário](/README#Sumário)
+ - Seção com todos os artigos: [sumário](/#sumario)
 
