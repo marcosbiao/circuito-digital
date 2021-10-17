@@ -2,7 +2,7 @@
 
 Antes de falar sobre circuito digital, é necessário voltar um passo atrás e enteder o que é a **representação digital** e a diferença entre a **representação analógica**. Ambos são formas de representar dados, pórem suas características são diferentes. Um exemplo de aparelho que utilizia a representação análogica, é o termômetro de mercúrio, como este:
 
-![Termômetro](images/Termometro)
+![Termômetro](termometro.jpeg)
 
 Neste aparelho, a representação da temperatura está relacionada diretamente com o materia dentro do termômetro, assim, qualquer variação nesse material, há uma variação na representação da temperatura, além disso, não se consegue dizer com precisão exata o valor da temperatura, pois há sempre pequenas variações, diz se que esse valor é um dado contínuo. Em geral, essas são as características básicas da representação analógica, um dispositívo mecânico que possue um dado contínuo. 
 
@@ -26,13 +26,54 @@ No geral, os circuitos digitais possuem entradas de dados, e formas de saida que
 
 # Portas logicas
 
-## Porta `And`
+Para criar a lógica de como um circuito digital funciona, um dos componentes básicos e fundamentais, são as portas lógicas. Portas lógicas são essenciais em qualquer circuito, até mesmo nos computadores mais avançados, seus componentes básicos, como o processador, é formado por muitas e muitas portas lógicas.
 
-## Porta `Or`
+Para descrever portas lógicas e outros componentes, pode-se utilizar a a ideia de tabelas-verdade. Que é uma tabela que mostra os possiveis valores para as entradas de um componente e as suas possiveis saídas. Por exemplo, o circuito que acende uma lâmpada quando três chaves estão ligadas pode ser descrito dessa forma:
+
+Entrada 1 | Entradas 2 | Entrada 3 | Saida
+----------|------------|-----------|------
+0 | 0 | 0 | 0
+0 | 0 | 1 | 0
+0 | 1 | 0 | 0
+0 | 1 | 1 | 0
+1 | 0 | 0 | 0 
+1 | 1 | 0 | 0
+1 | 1 | 1 | 1
+
+Nas tabelas e nos circuitos, é dito que quando temos o valor 1, aquela entrada/saida está ligada. Quando temos o valor 0, a entrada/sainda está desligada. Portanto na tabela acima, temos que a saida do circuito está ligada apenas quando todas as três entradas estão fechadas.
+
+Iremos ver ao longo desse post e dos próximos, algumas das portas lógicas essenciais para se contruir circuitos, suas tabelas verdade, e também circuitos básicos implementados em minecraft.
+
+## Porta `AND`
+
+O funcionamento da porta lógica `AND` ou `E`(em português) é usado no nosso cotidiano de forma despercebida, sempre usamos `e` para expressar que faremos algo quando dois eventos acontecem, por exemplo: Vou a praia se não chover **e** não estiver frio. A porta lógica `AND` funciona da mesma forma, ou seja, sua saida é ligada somente quando todas as suas entradas estão ligadas também. Ou seja, a tabela verdade que vimos anteriormente é equivalente a tabela do `AND`. A quantidade de entradas pode ser escolhida dependendo do problema, anteriormente vimos um `AND` com três entradas, mas no geral, é escrito com duas. Dessa forma: 
+
+Entrada 1 | Entradas 2 | Saida
+----------|------------|------
+0 | 0 | 0
+0 | 1 | 0
+1 | 0 | 0
+1 | 1 | 1
+
+Em diagramas de circuito, a porta lógica `AND` é desenhada dessa forma:
+
+![Porta lógica AND](posts/and.png)
+
+Em minecraft, podemos criar um AND dessa forma:
+
+![Porta lógica AND - Minecraft](posts/and_minecraft.gif)
+
+Nesse caso, somente quando as duas alavanças então ligadas o bloco de luz acende. Não é necessario se preocupar nesse momento como esse blocos aparentemente aleatórios formam um `AND`, o leitor precisa apenas entender o funcionamento da saida.
+
+## Porta `OR`
+
+![Porta lógica OR](posts/or.png)
+
+![Porta lógica OR - Minecraft](posts/or_minecraft.gif)
 
 # Links:
 
  - O próximos post é: []()
  - O post anterior a este é: []()
- - Seção com todos os artigos: [sumário](/README#Sumário)
+ - Seção com todos os artigos: [sumário](/#sumario)
 
