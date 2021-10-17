@@ -29,7 +29,7 @@ ligado uns com os outros para que ocorra a transmissão de energia. Essas ligaç
 popularmente chamadas de fios de redstone devido a sua semelhança com os fios elétricos
 (ver imagem abaixo).
 
-![Fios](posts/images/Fios.jpeg)
+![Fios](images/Fios.jpeg)
 
   Outra forma de transmitir energia é através de alguns blocos específicos, como 
 o bloco de pedra e seus derivados. Eles são energizados através do contato com os fios 
@@ -62,7 +62,7 @@ possuem dois estados: quando está sendo pressionada (ligado) e quando não est�
 pressionada (desligada). Ela só gerará energia se, e somente se, alguma entidade estiver 
 sob ela. Caso contrário, não gerará energia alguma.
 
-![Placa](/images/Placa.jpeg)
+![Placa](images/Placa.jpeg)
 
 - Tocha de Redstone
 
@@ -72,7 +72,7 @@ sob ela. Caso contrário, não gerará energia alguma.
  energia contínua. Para apagar a tocha de redstone é preciso, exclusivamente, que 
  ela esteja em contato direto com um bloco energizado.    
 
-![Tocha](/images/Tocha.jpeg)   
+![Tocha](images/Tocha.jpeg)   
 
 - Painel Solar
 
@@ -85,7 +85,7 @@ contínua enquanto estiver de noite, deixando de gerar quando estiver de dia.
 Observação: para exercer sua função, ela não pode estar sob nenhum bloco, ou seja, 
 precisa estar ligada diretamente com o céu.      
        
-![Painel](/images/Painel.jpeg)
+![Painel](images/Painel.jpeg)
           
 .Potência de energia  
      
@@ -102,23 +102,20 @@ que será vista com mais detalhes a seguir.
 
 - Repetidor
 
-  O repetidor é um elemento indipensável em circuitos de redstone maiores. Ele é responsável
+   O repetidor é um elemento indipensável em circuitos de redstone maiores. Ele é responsável
 por prolongar a carga por mais 15 unidades de distância (blocos) dos fios de redstone.
 Para facilitar o entendimento, podemos pensar no repetidor como uma extensão que 
 estende energia nos fios de redstone. Além de estender, eles são utilizados para 
-fazer com que os fios de redstone não juntem-se quando necessário (ver imagem abaixo)
-e também são utilizados para transmitir a energia de blocos energizados, dito anteriormente. 
-
-![Repetidor1]()
-    
+fazer com que os fios de redstone não juntem-se quando necessárioe também são utilizados
+para transmitir a energia de blocos energizados, dito anteriormente. 
    Uma característica importante do repetidor é o bloqueio de energia. Um repetidor de 
  redstone pode ser "bloqueado" por outro repetidor de redstone energizado de frente
  para o seu lado. Quando bloqueado, o repetidor não altera sua saída (seja alimentado
  ou não), não importa o que a entrada faça. Quando o repetidor lateral desliga
  novamente, o repetidor retorna ao seu comportamento normal (ver imagens abaixo). 
 
-![Repetidor Bloqueado com Energia](/images/1.jpeg)
+![Repetidor Bloqueado com Energia](images/1.jpeg)
 
-![Repetidor Bloqueado sem Energia](/images/2.jpeg) 
+![Repetidor Bloqueado sem Energia](images/2.jpeg) 
 
-![Repetidor Bloqueado](/images/3.jpeg)
+![Repetidor Bloqueado](images/3.jpeg)
