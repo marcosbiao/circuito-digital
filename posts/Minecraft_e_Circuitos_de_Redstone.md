@@ -99,7 +99,7 @@ o primeiro bloco possui o nível de potência de energia máximo, enquanto o úl
 possui nível de potência de energia mínimo.
 
 Dando continuidade ao exemplo anterior, se colocarmos pó de redstone em mais um 
-bloco, a energia será anulada, o que pode ser um problema a depender do tamanho do circuito. 
+bloco, esse bloco não será energizado, que pode ser um problema a depender do tamanho do circuito. 
 Felizmente, o Minecraft disponibiliza um item que prolonga essa carga chamada de repetidor, 
 que será vista com mais detalhes a seguir.
 
