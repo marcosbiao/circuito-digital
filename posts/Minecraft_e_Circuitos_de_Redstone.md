@@ -13,7 +13,7 @@ elétricos da vida real, possuindo noções de transmissão de energia e element
 funcionamento dos circuitos.
 
 Semelhante aos circuitos elétricos, os circuitos de redstone tem a finalidade de controlar 
-mecanismos e automatizar tarefas do contidiano do jogador, através da interação de energia com 
+mecanismos e automatizar tarefas do contidiano do jogador, através da interação da energia com 
 determinados itens e blocos. Possui esse nome devido ao seu principal meio de transmissão de energia: 
 o pó de redstone, que é um minério que pode ser coletado através da mineração.
 
