@@ -1,12 +1,10 @@
 # Minecraft e os Circuitos de Redstone
 
 Minecraft é um videogame de construção sandbox e de mundo aberto, onde os jogadores têm a 
-possibilidade de criar diferentes mundos que possuem um ambiente tridimensional totalmente
+possibilidade de criar e compartilhar diferentes mundos que dispõem de um ambiente tridimensional totalmente
 modificável feito de blocos de uma unidade cúbica. Os mundos no Minecraft são baseados na 
 vida real, possuindo conceitos como o ciclo do dia e noite, gravidade (exceto nos blocos) e 
-energia. Em relação ao compartilhamento de mundos, estes podem ser compartilhados de duas formas:
-de modo offline, atráves do envio dos arquivos do mundo do jogador para
-outros jogadores; ou em tempo real, atráves de servidores. 
+energia.
 
 O ambiente do jogo oferece recursos que podem ser utilizados para a execução de atividades 
 como a caça, mineração, construção de estruturas e a fabricação de itens e ferramentas. Dentre os 
@@ -15,7 +13,7 @@ elétricos da vida real, possuindo noções de transmissão de energia e element
 funcionamento dos circuitos.
 
 Semelhante aos circuitos elétricos, os circuitos de redstone tem a finalidade de controlar 
-mecanismos e automatizar tarefas do contidiano do jogador, através da interação de energia com 
+mecanismos e automatizar tarefas do contidiano do jogador, através da interação da energia com 
 determinados itens e blocos. Possui esse nome devido ao seu principal meio de transmissão de energia: 
 o pó de redstone, que é um minério que pode ser coletado através da mineração.
 
@@ -101,7 +99,7 @@ o primeiro bloco possui o nível de potência de energia máximo, enquanto o úl
 possui nível de potência de energia mínimo.
 
 Dando continuidade ao exemplo anterior, se colocarmos pó de redstone em mais um 
-bloco, a energia será anulada, o que pode ser um problema a depender do tamanho do circuito. 
+bloco, esse bloco não será energizado, o que pode ser um problema a depender do tamanho do circuito. 
 Felizmente, o Minecraft disponibiliza um item que prolonga essa carga chamada de repetidor, 
 que será vista com mais detalhes a seguir.
 
@@ -111,8 +109,8 @@ O repetidor é um elemento indipensável em circuitos de redstone maiores. Ele �
 por prolongar a carga por mais 15 unidades de distância (blocos) dos fios de redstone.
 Para facilitar o entendimento, podemos pensar no repetidor como uma extensão que 
 estende energia nos fios de redstone. Além de estender, eles são utilizados para 
-impedir a junção indesejada de fios de redstone, e também para transmitir a energia de 
-blocos energizados, conforme dito anteriormente. 
+impedir a junção indesejada de fios de redstone, controlar o tempo de passagem de energia,
+e também para transmitir a energia de blocos energizados, conforme dito anteriormente. 
 
 Uma característica importante do repetidor é o bloqueio de energia. Um repetidor de 
 redstone pode ser "bloqueado" por outro repetidor de redstone energizado de frente
