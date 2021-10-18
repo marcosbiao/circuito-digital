@@ -109,8 +109,8 @@ O repetidor é um elemento indipensável em circuitos de redstone maiores. Ele �
 por prolongar a carga por mais 15 unidades de distância (blocos) dos fios de redstone.
 Para facilitar o entendimento, podemos pensar no repetidor como uma extensão que 
 estende energia nos fios de redstone. Além de estender, eles são utilizados para 
-impedir a junção indesejada de fios de redstone, e também para transmitir a energia de 
-blocos energizados, conforme dito anteriormente. 
+impedir a junção indesejada de fios de redstone, controlar o tempo de passagem de energia,
+e também para transmitir a energia de blocos energizados, conforme dito anteriormente. 
 
 Uma característica importante do repetidor é o bloqueio de energia. Um repetidor de 
 redstone pode ser "bloqueado" por outro repetidor de redstone energizado de frente
