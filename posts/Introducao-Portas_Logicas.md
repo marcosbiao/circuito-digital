@@ -80,7 +80,7 @@ A representação gráfica dessa porta, é geralmente definida da seguinte forma
 
 ![Porta lógica OR](images/or.png)
 
-Em minecraft, podemos criar um OR dessa forma:
+Em minecraft, podemos criar um `OR` dessa forma:
 
 ![Porta lógica OR - Minecraft](images/or_minecraft.gif)
 
