@@ -124,13 +124,13 @@ Já o `OR` é escrito com o simbolo de soma, assim:
 X = A+B
 ```
 
-Isto é equivalente a um circuito formado por duas entradas `A` e `B` que alimantam um `OR `e sua saida `X`.
+Isto é equivalente a um circuito formado por duas entradas `A` e `B` que alimantam um `OR` e sua saida `X`.
 
 A porta `NOT` é escrita como sua entrada com uma barra em cima. Por exemplo, o circuito onde temos duas entradas conectadas em um OR e a saida conectada em um `NOT` é descrito na forma gráfica e matemática a seguir:
 
 ![OR e NOT](images/circuito-or-not.png)
 
-Perceba que em ambos as formas, é possivel conectar os componentes de forma que a saida de uma porta é usada como entrada para outro componente. Com essa ideia, é possivel criar circuitos complexos, da forma que se desejar.
+Perceba que é possivel conectar os componentes de forma que a saida de uma porta é usada como entrada para outro componente. Com essa ideia, é possivel criar circuitos complexos, da forma que se desejar.
 
 # Links:
 
