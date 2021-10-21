@@ -26,5 +26,27 @@ Nesse caso,`R` representa a saída do circuito. Perceba que a representação al
 
 ### Exemplo de circuito utilizando a soma de produtos
 
+Agora com as ideias básicas, veremos como criar um circuito que resolva algum problema, iremos descrever o problema e resolve-lo para que o leitor entenda os passos básicos para a resolução de qualquer problema semelhante.
+
+Descrição do problema: 
+
+> Queremos implementar uma circuito básico que é utilizado ao criar um circuito que faz somas. Nesse circuito básico desejamos que a saida esteja ativa quando ao menos duas das suas três entradas estejam ativas.
+
+Dado o problema, o primeiro passo é descrever uma tabela verdade que represente o comportamento que queremos, essa tabela é descrita da seguinte forma:
+
+![Exemplo somador - tabela verdade](images/somador-ex_1.png)
+
+Agora precisamos verificar cada linha que tenha a saida ativa, e montar uma expressao `AND` com as entradas daquela linha. Veja como montar essa expressão para cada linha da tabela verdade:
+
+![Exemplo somador - tabela verdade com expressão `AND`](images/somador-ex_2.png)
+
+Esse expressão `AND` é montada conectadando todas as entradas daquela determinada linha a uma porta `AND` e verificando quais entradas tem o valor 0, então, essas entradas precisar ser conectadas a um inversor antes de serem conectadas a uma porta `AND`, assim todas as entradas daquela linha terão o estado ativo depois de conectadas a um inversor. 
+
+Após montar essas três expressões `AND` iremos conectar todos elas a uma porta `OR`, formando um circuito de soma-de-produtos. Com isso, temos o circuito finalizado. Veja a representação final na forma de expressão algébrica e na forma de circuito:
+
+![Exemplo somador -  expressão final](images/somador-ex_3.png)
+
+![Exemplo somador - circuito final](images/somador-ex_4.png)
+
 # Circuito para travar porta em minecraft
 
