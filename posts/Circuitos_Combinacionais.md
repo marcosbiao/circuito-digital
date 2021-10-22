@@ -30,7 +30,7 @@ Agora com as ideias básicas, veremos como criar um circuito para resolver probl
 
 Descrição do problema: 
 
-> Queremos implementar uma circuito onde a sua saída esteja ativa quando ao menos duas das suas três entradas estiverem ativas.
+> Queremos implementar um circuito onde a sua saída esteja ativa quando ao menos duas das suas três entradas estiverem ativas.
 
 Dado o problema, o primeiro passo é descrever uma tabela verdade que represente o comportamento que queremos. A tabela é descrita da seguinte forma:
 
