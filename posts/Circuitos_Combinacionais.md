@@ -1,6 +1,6 @@
 # Circuitos combinacionais
 
-Ao combinar as portas lógicas que vimos até aqui, podemos criar muitos tipos diferentes de circuitos que nos ajudam a resolver muitos problemas. Esses circuitos tem a seguinte característica, a saída do circuito em um determinado momento, depende apenas das entradas nesses mesmo momento. Ou seja, esses circuitos não dependem de entradas/saidas que foram obtidas no passado, nem de algum tipo de memória. Esses circuitos são conhecidos como circuitos combinacionais. Isto porque a saída depende apenas das combinações das entradas em um determinado instante.
+Ao combinar as portas lógicas que vimos até aqui, podemos criar muitos tipos diferentes de circuitos que nos ajudam a resolver muitos problemas. Esses circuitos tem a seguinte característica: a sua saída, em um determinado momento, depende apenas das entradas nesse mesmo momento. Ou seja, eles não dependem de entradas/saídas que foram obtidas no passado, nem de algum tipo de memória. Tais circuitos são conhecidos como circuitos combinacionais, devido à sua saída depender apenas das combinações das entradas em um determinado instante.
 
 Veremos nesse capítulo como criar circuitos combinacionais que resolvam algum problema real.
 
@@ -14,11 +14,11 @@ Além disso, existe um padrão de circuitos que eventualmente aparece enquanto e
 
 ### Soma-de-Produtos
 
-Um circuito está na forma de soma-de-produtos quando todas as entradas do circuito estão conectadas a portas `AND` e o resultado dessas portas estão conectadas em uma porta `OR`, essa porta `OR` pode ter diversas entradas, dependendo apenas da quantidade de portas `AND` que irão se conectar a esse `OR`. Além disso, as entradas do circuito podem ou não estar conectadas a um inversor. Veja um exemplo de circuito que está no formato soma-de-produtos:
+Um circuito está na forma de soma-de-produtos quando todas as entradas do circuito estão conectadas a portas `AND` e a saída dessas portas são entradas para uma porta `OR`, que por sua vez pode ter diversas entradas, dependendo apenas da quantidade de portas `AND` que estarão conectadas. Além disso, as entradas do circuito podem ou não estar conectadas a um inversor. Veja um exemplo de circuito que está no formato soma-de-produtos:
 
 ![Soma de produtos](images/soma-de-produtos_1.jpeg)
 
-Neste circuito, perceba que todas as saidas dos `AND` estão conectados ao `OR` e todas as entrdas então conectadas ao `AND`, e que também é possivel que uma entrada esteja invertida, como é o caso da entrada `A`. Veja como seria a representação algébrica desse circuito:
+Neste circuito, perceba que todas as entradas então conectadas ao `AND` e todas as saídas dos `AND` estão conectados ao `OR`, e que também é possivel que uma entrada esteja invertida, como é o caso da entrada `A`. Veja como seria a representação algébrica desse circuito:
 
 ![Soma de produtos - Algebrica](images/soma-de-produtos_2.png)
 
@@ -26,23 +26,23 @@ Nesse caso,`R` representa a saída do circuito. Perceba que a representação al
 
 ### Exemplo de circuito utilizando a soma de produtos
 
-Agora com as ideias básicas, veremos como criar um circuito que resolva algum problema, iremos descrever o problema e resolve-lo para que o leitor entenda os passos básicos para a resolução de qualquer problema semelhante.
+Agora com as ideias básicas, veremos como criar um circuito para resolver problemas. Iremos descrever um problema e resolve-lo para que o leitor entenda os passos básicos para a resolução de qualquer problema semelhante.
 
 Descrição do problema: 
 
-> Queremos implementar uma circuito básico que é utilizado ao criar um circuito que faz somas. Nesse circuito básico desejamos que a saida esteja ativa quando ao menos duas das suas três entradas estejam ativas.
+> Queremos implementar uma circuito onde a sua saída esteja ativa quando ao menos duas das suas três entradas estiverem ativas.
 
-Dado o problema, o primeiro passo é descrever uma tabela verdade que represente o comportamento que queremos, essa tabela é descrita da seguinte forma:
+Dado o problema, o primeiro passo é descrever uma tabela verdade que represente o comportamento que queremos. A tabela é descrita da seguinte forma:
 
 ![Exemplo somador - tabela verdade](images/somador-ex_1.png)
 
-Agora precisamos verificar cada linha que tenha a saida ativa, e montar uma expressao `AND` com as entradas daquela linha. Veja como montar essa expressão para cada linha da tabela verdade:
+Agora precisamos verificar cada linha que tenha a saída ativa, e montar uma expressao `AND` com as entradas daquela linha. Veja como montar essa expressão para cada linha da tabela verdade:
 
 ![Exemplo somador - tabela verdade com expressão `AND`](images/somador-ex_2.png)
 
-Esse expressão `AND` é montada conectadando todas as entradas daquela determinada linha a uma porta `AND` e verificando quais entradas tem o valor 0, então, essas entradas precisar ser conectadas a um inversor antes de serem conectadas a uma porta `AND`, assim todas as entradas daquela linha terão o estado ativo depois de conectadas a um inversor. 
+No circuito, essas expressão são construídas conectando todas as entradas da sua respectiva linha a uma porta `AND`. Quando alguma entrada naquela linha estiver em zero (0), é necessário primeiro conecta-las a um inversor (porta `NOT`) antes de serem conectadas na porta `AND`, fazendo com que a saída do inversor fique ativa. 
 
-Após montar essas três expressões `AND` iremos conectar todos elas a uma porta `OR`, formando um circuito de soma-de-produtos. Com isso, temos o circuito finalizado. Veja a representação final na forma de expressão algébrica e na forma de circuito:
+Após isso, todas as sáidas das expressões `AND` serão conectadas a uma porta `OR`, formando um circuito de soma-de-produtos, finalizando assim, o circuito. Veja a representação final na forma de expressão algébrica e na forma de circuito:
 
 ![Exemplo somador -  expressão final](images/somador-ex_3.png)
 
