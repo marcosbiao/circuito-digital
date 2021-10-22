@@ -42,7 +42,7 @@ Agora precisamos verificar cada linha que tenha a saída ativa, e montar uma exp
 
 No circuito, essas expressão são construídas conectando todas as entradas da sua respectiva linha a uma porta `AND`. Quando alguma entrada naquela linha estiver em zero (0), é necessário primeiro conecta-las a um inversor (porta `NOT`) antes de serem conectadas na porta `AND`, fazendo com que a saída do inversor fique ativa. 
 
-Após isso, todas as sáidas das expressões `AND` serão conectadas a uma porta `OR`, formando um circuito de soma-de-produtos, finalizando assim, o circuito. Veja a representação final na forma de expressão algébrica e na forma de circuito:
+Após isso, todas as saídas das expressões `AND` serão conectadas a uma porta `OR`, formando um circuito de soma-de-produtos, finalizando assim, o circuito. Veja a representação final na forma de expressão algébrica e na forma de circuito:
 
 ![Exemplo somador -  expressão final](images/somador-ex_3.png)
 
