@@ -49,11 +49,11 @@ Linha | Entrada 1 | Entradas 2 | Entrada 3 | Entrada 4 | Saída T
 15 | 1 | 1 | 1 | 0 | 0
 16 | 1 | 1 | 1 | 1 | 0
 
-Como podemos perceber, apenas as entradas da linha 22 fará com que a saída seja positiva. A expressão booleana da linha 22 é
+Como podemos perceber, apenas as entradas da linha 22 fará com que a saída seja positiva. A expressão booleana da linha 22 é:
 
 ![Expressão Booleana](images/expr_bool_project.jpeg)
 
-Para montar o circuito, basta apenas levar em consideração os 0 da linha 22, que deve ficar com as entradas com um inversor (NOT). Quanto ao segundo `AND`, ele teria a saída T e a entrada P como entradas. Isso significa que, ao pisar na placa (entrada fica positiva), a porta só irá abrir se a saída T for positiva, ou seja, so irá abrir se a senha for colocada corretamente. Portanto, o circuito referente à porta ficará da seguinte forma:
+Para montar o circuito, basta apenas levar em consideração os 0 da linha 22, que deve ficar com as entradas com um inversor (`NOT`). Quanto ao segundo `AND`, ele terá a saída T e a entrada P como entradas. Isso significa que, ao pisar na placa (entrada fica positiva), a porta só irá abrir se a saída T for positiva, ou seja, so irá abrir se a senha for colocada corretamente. Portanto, o circuito referente à porta ficará da seguinte forma:
 
 ![Circuito Senha](images/circuito_senha.jpeg)
 
@@ -61,3 +61,34 @@ Agora que temos o circuito, basta apenas passarmos para circuito de Redstone do 
 
 ![Circuito Redstone Senha](images/circuito_redstone_senha.gif)
 
+## Circuito da lâmpada
+
+Agora veremos a segunda parte do circuito: o circuito da lÂmpada. O processo de acender a lâmpada é o seguinte: quando o jogador entrar na casa, vai depara-se com uma outra placa de pressão (entrada Y) que será responsável por acender a lâmpada (saída L), que por sua vez so irá acender se, no momento em que o jogador pisar na placa, estiver de noite. Para isso, será necessário uma entrada que esteja em sicronia com o período do dia (entrada N), ou seja, durante o dia essa entrada precisa estar em 0, e mudar para 1 caso esteja de noite. No Minecraft, tal entrada seria a ferramenta Painel Solar no modo Noturno.
+
+Além disso, a lâmpada deve apagar, caso o jogador pise novamente na placa para sair da casa, o que implica que precisaremos fazer o uso de um Flip-Flop D com o ~Q sendo a entrada D e a placa de pressão como o clock, nos permitindo alternar o estado da saída L (lâmpada) toda vez que pisarmos na placa (ver imagem abaixo).
+
+![FF D](images/ff_d.jpeg)
+
+Dito isso, a lâmpada so irá acender caso a placa (Y) for 1, e a entrada condicional (N) for 1, ou seja, é preciso adicionar uma porta `AND` que o L (lâmpada) como saída. O circuito da lâmpada seria:
+
+![Circuito da Lâmpada](images/circ_lamp.jpeg)
+
+No minecraft, o circuito de Redstone correspondente seria:
+
+![Circuito da Lâmpada Redstone](images/circ_lamp_reds.gif)
+
+# Circuito de Redstone Completo
+
+Com o circuito da porta e o da lâmpada já formulados, precisamos efetuar a integração dos circuitos. Para isso precisamos traçar o que os dois circuitos tem em comum. Na descrição do projeto, a placa de pressão interna à casa, além de acender a lâmpada, também abre a porta. Como ambas as placas abrem a porta, isso significa que qualquer uma das duas que forem pressionadas e estiverem de acordo com os seus critérios, a porta deverá abrir.
+
+No contexto de circuitos, precisaremos utilizar a porta lógica `OR` que tem como entradas a saída do circuito da porta (saída P) e a placa de pressão interna (entrada Y). Então, o circuito completo do projeto ficará da seguinte forma:
+
+![Circuito Projeto](images/circ_projeto_completo.jpeg)
+
+No minecraft, o circuito de Redstone correspondende é:
+
+![Circuito Projeto Redstone](images/circ_reds_projeto_completo.gif) 
+
+# Projeto Completo no Minecraft
+
+A seguir, iremos disponibilizar o link para download do Projeto funcionando dentro do Minecraft. Para você utilizar o mundo é necessário baixar o arquivo .zip, extrair o arquivo zipado. Após isso, com o Minecraft já instalado, copie a pasta extraída e cole na pasta `.minecraft` no seu computador. Pronto, entre no jogo e estará o mundo salvo para você utilizar!
