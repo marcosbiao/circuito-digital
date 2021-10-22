@@ -53,11 +53,11 @@ Como podemos perceber, apenas as entradas da linha 22 fará com que a saída sej
 
 ![Expressão Booleana](images/expr_bool_project.jpeg)
 
-Como dito, o segundo `AND` teria a saída T e a entrada P como entradas. Isso significa que, ao pisar na placa (entrada fica positiva), a porta só irá abrir se a saída T for positiva, ou seja, so irá abrir se a senha for colocada corretamente. Portanto, o circuito referente à porta ficará da seguinte forma:
+Para montar o circuito, basta apenas levar em consideração os 0 da linha 22, que deve ficar com as entradas com um inversor (NOT). Quanto ao segundo `AND`, ele teria a saída T e a entrada P como entradas. Isso significa que, ao pisar na placa (entrada fica positiva), a porta só irá abrir se a saída T for positiva, ou seja, so irá abrir se a senha for colocada corretamente. Portanto, o circuito referente à porta ficará da seguinte forma:
 
 ![Circuito Senha](images/circuito_senha.jpeg)
 
-Agora que temos o circuito, basta apenas passarmos para circuito de redstone do Minecraft. O circuito de Redstone da porta ficará da seguinte forma:
+Agora que temos o circuito, basta apenas passarmos para circuito de Redstone do Minecraft. O circuito de Redstone da porta ficará da seguinte forma:
 
 ![Circuito Redstone Senha](images/circuito_redstone_senha.gif)
 
