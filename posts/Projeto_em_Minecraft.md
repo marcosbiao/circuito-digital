@@ -64,8 +64,15 @@ Linha | Entrada 1 | Entradas 2 | Entrada 3 | Entrada 4 | Entrada 5 | Saida
 31 | 1 | 1 | 1 | 1 | 0 | 0
 32 | 1 | 1 | 1 | 1 | 1 | 0
 
-Como podemos perceber, apenas as entradas da linha 22 fará com que a saída seja positiva. A expressão booleana da linha 22 é A
+Como podemos perceber, apenas as entradas da linha 22 fará com que a saída seja positiva. A expressão booleana da linha 22 é
 
 ![Expressão Booleana](images/expr_bool_project.jpeg)
 
+Montando o circuito com a expressão, o circuito referente a porta ficará da seguinte forma:
+
+![Circuito Senha](images/circuito_senha.jpeg)
+
+Agora que temos o circuito, basta apenas passarmos para circuito de redstone do Minecraft. O circuito de Redstone da porta ficará da seguinte forma:
+
+![Circuito Redstone Senha](images/circuito_redstone_senha.jpeg)
 
