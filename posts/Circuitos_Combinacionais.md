@@ -16,7 +16,7 @@ Além disso, existe um padrão de circuitos que eventualmente aparece enquanto e
 
 Um circuito está na forma de soma-de-produtos quando todas as entradas do circuito estão conectadas a portas `AND` e o resultado dessas portas estão conectadas em uma porta `OR`, essa porta `OR` pode ter diversas entradas, dependendo apenas da quantidade de portas `AND` que irão se conectar a esse `OR`. Além disso, as entradas do circuito podem ou não estar conectadas a um inversor. Veja um exemplo de circuito que está no formato soma-de-produtos:
 
-![Soma de produtos](images/soma-de-produtos_1.png)
+![Soma de produtos](images/soma-de-produtos_1.jpeg)
 
 Neste circuito, perceba que todas as saidas dos `AND` estão conectados ao `OR` e todas as entrdas então conectadas ao `AND`, e que também é possivel que uma entrada esteja invertida, como é o caso da entrada `A`. Veja como seria a representação algébrica desse circuito:
 
@@ -46,7 +46,7 @@ Após montar essas três expressões `AND` iremos conectar todos elas a uma port
 
 ![Exemplo somador -  expressão final](images/somador-ex_3.png)
 
-![Exemplo somador - circuito final](images/somador-ex_4.png)
+![Exemplo somador - circuito final](images/somador-ex_4.jpeg)
 
 # Circuito para travar porta em minecraft
 
