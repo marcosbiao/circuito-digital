@@ -93,3 +93,5 @@ No minecraft, o circuito de Redstone correspondende é:
 # Projeto Completo no Minecraft
 
 A seguir, iremos disponibilizar o link para download do Projeto funcionando dentro do Minecraft. Para você utilizar o mundo é necessário baixar o arquivo `.zip`, extrair o arquivo zipado. Após isso, com o Minecraft já instalado, copie a pasta extraída e cole na pasta `.minecraft/saves` no seu computador. Pronto, entre no jogo e estará o mundo salvo para você utilizar!
+
+Link do mapa: https://drive.google.com/file/d/1sO7UO7Tma_iC0BeubE0-vtIyaKEPVyMv/view?usp=sharing
