@@ -64,13 +64,13 @@ Agora que temos o circuito, basta apenas implementa-lo utilizando circuitos de R
 
 ## Circuito da lâmpada
 
-Agora veremos a segunda parte do circuito: o circuito da lÂmpada. O processo de acender a lâmpada é o seguinte: quando o jogador entrar na casa, vai depara-se com uma outra placa de pressão (entrada Y) que será responsável por acender a lâmpada (saída L), que por sua vez so irá acender se, no momento em que o jogador pisar na placa, estiver de noite. Para isso, será necessário uma entrada que esteja em sicronia com o período do dia (entrada N), ou seja, durante o dia essa entrada precisa estar em 0, e mudar para 1 caso esteja de noite. No Minecraft, tal entrada seria a ferramenta Painel Solar no modo Noturno.
+Agora veremos a segunda parte do circuito: o circuito da lâmpada. O processo de acender a lâmpada é o seguinte: quando o jogador entrar na casa, vai depara-se com uma outra placa de pressão (entrada Y) que será responsável por acender a lâmpada (saída L), que por sua vez so irá acender se, no momento em que o jogador pisar na placa, estiver de noite. Para isso, será necessário um sensor que identifica ausencia de luz solar, ou seja, durante o dia essa entrada estará em 0, e a noite estará ativa. No Minecraft, tal entrada seria a ferramenta Painel Solar no modo Noturno.
 
-Além disso, a lâmpada deve apagar, caso o jogador pise novamente na placa para sair da casa, o que implica que precisaremos fazer o uso de um Flip-Flop D com o ~Q sendo a entrada D e a placa de pressão como o clock, nos permitindo alternar o estado da saída L (lâmpada) toda vez que pisarmos na placa (ver imagem abaixo).
+Além disso, a lâmpada deve apagar, caso o jogador pise novamente na placa para sair da casa. Ou seja, precisamos de um dispositivo que alterne seu estado sempre que houver um pulso proveniente da placa. Podemos fazer o uso de um Flip-Flop D com o ~Q sendo a entrada D e a placa de pressão como o clock, nos permitindo alternar o estado da saída L (lâmpada) toda vez que pisarmos na placa (ver imagem abaixo).
 
 ![FF D](images/ff_d.jpeg)
 
-Dito isso, a lâmpada so irá acender caso a placa (Y) for 1, e a entrada condicional (N) for 1, ou seja, é preciso adicionar uma porta `AND` que o L (lâmpada) como saída. O circuito da lâmpada seria:
+Dito isso, a lâmpada só irá acender caso o Flip-Flop esteja ativo(indica que a pessoa está dentro da casa) e quando a placa solar está ativa(indica que está de noite). Para isso, é preciso adicionar uma porta `AND` que conecte o Flip-Flop e o painel solar, o resultado dessa porta `AND` será conectado na lâmpada. O resultado é o seguinte:
 
 ![Circuito da Lâmpada](images/circ_lamp.jpeg)
 
