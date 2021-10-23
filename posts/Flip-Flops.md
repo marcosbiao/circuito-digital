@@ -24,7 +24,7 @@ Iremos ver dois exemplos de dispositivos de Flip-Flop, eles não são os únicos
 
 ## Flip-Flop D
 
-Veremos um Flip-Flop específico, conhecido como Flip-Flop D, nesse Flip-Flop, há somente duas entradas, a primeira entrada é chamada de `D`(dados), e a outra representa um pulso de Clock. Seu funcionamento é simples, no momento que houver um pulso de clock, o FF lê a entrada de dados(D) e e armazena o valor da entrada na sua saída. Essa valor ficará salvo, até que hava mais um pulso de clock que mude o estado do FF. Veja como esse dispositivo é representado: 
+Veremos um Flip-Flop específico, conhecido como Flip-Flop D, nesse Flip-Flop, há somente duas entradas, a primeira entrada é chamada de `D`(dados), e a outra representa um pulso de Clock. Seu funcionamento é simples, no momento que houver um pulso de clock, o FF lê a entrada de dados(D) e e armazena o valor da entrada na sua saída. Essa valor ficará salvo, até que haja mais um pulso de clock que mude o estado do FF. Veja como esse dispositivo é representado: 
 
 ![Flip-Flop D](images/ff_d_representacao_grafica.png)
 
@@ -38,7 +38,7 @@ No circuito, a placa de pressão pode ser vista como a entrada de Clock, enquant
 
 ![Flip-Flop D - Uso em Minecraft](images/utilizando_ff.gif)
 
-Nesse exemplo, é definido o estado do flip-flop como ativo. Ou seja, em um flip-flop, podemos armazenar apenas dois valores, ativo ou desativo, que é o que chamados de bit, a unidade básica de qualquer computador. Por exemplo, quando falamos de um gigabyte, estamos falandos de uma memória capaz de armazenar mais de 8 bilhões de bits, equivalente a mais de 8 bilhoes de flip-flops.
+Nesse exemplo, é definido o estado do flip-flop como ativo. Ou seja, em um flip-flop, podemos armazenar apenas dois valores, ativo ou desativo, que é o que chamamos de bit, a unidade básica de qualquer computador. Por exemplo, quando falamos de um gigabyte, estamos falandos de uma memória capaz de armazenar mais de 8 bilhões de bits, equivalente a mais de 8 bilhões de flip-flops.
 
 > A representação do flip-flop em minecraft, é um pouco complicado de entender, principalmente se o leitor não tem conhecimento dos blocos utilizados no minecraft, pórem, não é preciso se preocupar na forma como o flip-flop está descrito no minecraft, apenas no seu funcionamento.
 
