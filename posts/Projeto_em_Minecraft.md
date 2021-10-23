@@ -21,17 +21,18 @@ Todos esse processos podem ser automatizados atráves do circuitos de redstone, 
 
 # Descrição dos Componentes Lógicos
 
-Como foi visto, para formulação do circuito digital, primeiramente precisamos pensar no problema em que queremos resolver. Para melhorar o entendimento do circuito, dividiremo-os em 2 circuitos menores: o que diz respeito a porta, e o da lâmpada. Começaremos com circuito de destrancar e abrir a porta a seguir.
+Como foi visto, para formulação do circuito digital, primeiramente precisamos pensar no problema em que queremos resolver. Para melhorar o entendimento do circuito, dividiremos em 2 circuitos menores: o que diz respeito a abriar a porta utilizando senha, e o da lâmpada. A seguir, começaremos com circuito de abrir e fechar a porta.
 
 ## Circuito da Porta
 
-Primeiramente, precisamos detalhar todo os processos condizentes com a porta. O processo será o seguinte: Existirá uma sequência de 4 alavancas (entradas 1, 2, 3, e 4), uma placa de pressão (entrada P), e uma a porta (saída S). Ao pressionar a placa, a porta abrirá somente se: a primeira alavanca estiver ligada; a segunda estiver desligada; a terceira estiver ligada, e a quarta desligada. No caso, a senha seria 1010, onde cada algorismo representa a sua respectiva alavanca da esquerda para a direita.
+Primeiramente, precisamos detalhar todo os processos condizentes com a porta. O processo será o seguinte: Existirá uma sequência de 4 alavancas (entradas 1, 2, 3, e 4), uma placa de pressão (entrada P), e uma a porta (saída S). A senha seria 1010. Portanto, ao pressionar a placa, a porta abrirá somente se: a primeira alavanca estiver ligada; a segunda estiver desligada; a terceira estiver ligada, e a quarta desligada.
 
-Traduzindo para o contexto de circuitos digitais, isso significa que o circuito terá dois AND: o primeiro com as entradas E1, E2, E3, E4 (alavancas) e a saída T; e o segundo terá, como entradas, a saída T e a P (placa), e, como saída, o S (porta). A tabela verdade desse circuito seria:
+> Definimos essa senha aleatoriamente, o leitor pode se sentir vontade para replicar o circuito com uma senha diferente.
 
-##### Primeiro `AND`
+Traduzindo para o contexto de circuitos digitais, teremos um circuito que tem resultado ligado quando a senha estiver correta, e um circuito formado pela placa de pressão, com isso, a porta abrirá quando ambos os circuitos estiverem ligados. A tabela verdade do circuito que indica se a senha está correta é:
+
 Linha | Entrada 1 | Entradas 2 | Entrada 3 | Entrada 4 | Saída T
-----------|----------|------------|-----------|-----------|------
+------|-----------|------------|-----------|-----------|--------
 1 | 0 | 0 | 0 | 0 | 0
 2 | 0 | 0 | 0 | 1 | 0
 3 | 0 | 0 | 1 | 0 | 0
@@ -49,15 +50,15 @@ Linha | Entrada 1 | Entradas 2 | Entrada 3 | Entrada 4 | Saída T
 15 | 1 | 1 | 1 | 0 | 0
 16 | 1 | 1 | 1 | 1 | 0
 
-Como podemos perceber, apenas as entradas da linha 22 fará com que a saída seja positiva. A expressão booleana da linha 22 é:
+Como podemos perceber, apenas as entradas da linha 11 fará com que a saída seja positiva. Portanto, a expressão algebrica desa tabela é:
 
 ![Expressão Booleana](images/expr_bool_project.jpeg)
 
-Para montar o circuito, basta apenas levar em consideração os 0 da linha 22, que deve ficar com as entradas com um inversor (`NOT`). Quanto ao segundo `AND`, ele terá a saída T e a entrada P como entradas. Isso significa que, ao pisar na placa (entrada fica positiva), a porta só irá abrir se a saída T for positiva, ou seja, so irá abrir se a senha for colocada corretamente. Portanto, o circuito referente à porta ficará da seguinte forma:
+Agora iremos conectar esse circuito a cima com a placa de pressão, essa conexão será feita utilizando um `AND`, pois queremos que a porta abra quando a placa de pressão estiver ativa e ao mesmo tempo, o circuito nos indique que a senha está correta. Isso é feito da seguinte forma: 
 
 ![Circuito Senha](images/circuito_senha.jpeg)
 
-Agora que temos o circuito, basta apenas passarmos para circuito de Redstone do Minecraft. O circuito de Redstone da porta ficará da seguinte forma:
+Agora que temos o circuito, basta apenas implementa-lo utilizando circuitos de Redstone do Minecraft. O resultado ficará da seguinte forma:
 
 ![Circuito Redstone Senha](images/circuito_redstone_senha.gif)
 
