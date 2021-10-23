@@ -12,8 +12,8 @@ Hello from topic 2.
 
 # Sumário
 
-- [Introdução e portas lógicas](/posts/Introducao-Portas_Logicas.md)
 - [Introdução sobre minecraft](/posts/Minecraft_e_Circuitos_de_Redstone.md)
+- [Introdução e portas lógicas](/posts/Introducao-Portas_Logicas.md)
 - [Portas `NAND` e `NOR`](/posts/Portas_Logicas-Nand-Nor.md)
 - [Dispositivos com memória](/posts/Flip-Flops.md)
 - [Projeto: Smart House](/posts/Projeto_em_Minecraft.md)
