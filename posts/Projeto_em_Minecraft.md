@@ -54,7 +54,7 @@ Como podemos perceber, apenas as entradas da linha 11 fará com que a saída sej
 
 ![Expressão Booleana](images/expr_bool_project.jpeg)
 
-Agora iremos conectar esse circuito a cima com a placa de pressão, essa conexão será feita utilizando um `AND`, pois queremos que a porta abra quando a placa de pressão estiver ativa e ao mesmo tempo, o circuito nos indique que a senha está correta. Isso é feito da seguinte forma: 
+Agora iremos conectar esse circuito a cima com a placa de pressão, essa conexão será feita utilizando um `AND`, pois queremos que a porta abra quando a placa de pressão estiver ativa e, ao mesmo tempo, o circuito nos indique que a senha está correta. Isso é feito da seguinte forma: 
 
 ![Circuito Senha](images/circuito_senha.jpeg)
 
