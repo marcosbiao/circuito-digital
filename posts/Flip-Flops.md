@@ -18,11 +18,31 @@ Esse conceito de pulsos é muito utilizado em conjunto com Flip-Flop's e outros 
 
 # Flip-Flop
 
-## D latch
+Flip-Flop(FF) é um nome genérico que se refere a vários dispositivos que tem características semelhante, no geral, todos esses dispositivos tem a capacidade de armazenar informação é são feitos apartir das portas lógicas que vimos anteriormente. Além disso, na maioria das vezes, esses dispositivos possuem uma entrada que é utilizada como Clock. 
 
-## Flip-Flop J-K
+Iremos ver dois exemplos de dispositivos de Flip-Flop, eles não são os únicos que existem, pórem, farão com que o leitor possua uma idéia geral sobre esses dispositívos.
 
-## D latch apartir de Flip-Flop J-K
+## Flip-Flop D
+
+Veremos um Flip-Flop específico, conhecido como Flip-Flop D, nesse Flip-Flop, há somente duas entradas, a primeira entrada é chamada de `D`(dados), e a outra representa um pulso de Clock. Seu funcionamento é simples, no momento que houver um pulso de clock, o FF lê a entrada de dados(D) e e armazena o valor da entrada na sua saída. Essa valor ficará salvo, até que hava mais um pulso de clock que mude o estado do FF. Veja como esse dispositivo é representado: 
+
+![Flip-Flop D](images/ff_d_representacao_grafica.png)
+
+Perceba que o FF possue duas saídas, a saida chamada de Q, que representa o valor que está armazenado no FF, e a outra é o inverso da valor que está armazenado.
+
+Veja como um Flip-Flop D pode ser implementado em minecraft:
+
+![Flip-Flop D - Minecraft](images/ff_implementado_em_mine.png)
+
+No circuito, a placa de pressão pode ser vista como a entrada de Clock, enquanto a entrada com alavanca é a entrada de dados(D). Veja um exemplo, utilizando esse dispositivo:
+
+![Flip-Flop D - Uso em Minecraft](images/utilizando_ff.gif)
+
+Nesse exemplo, é definido o estado do flip-flop como ativo. Ou seja, em um flip-flop, podemos armazenar apenas dois valores, ativo ou desativo, que é o que chamados de bit, a unidade básica de qualquer computador. Por exemplo, quando falamos de um gigabyte, estamos falandos de uma memória capaz de armazenar mais de 8 bilhões de bits, equivalente a mais de 8 bilhoes de flip-flops.
+
+> A representação do flip-flop em minecraft, é um pouco complicado de entender, principalmente se o leitor não tem conhecimento dos blocos utilizados no minecraft, pórem, não é preciso se preocupar na forma como o flip-flop está descrito no minecraft, apenas no seu funcionamento.
+
+## Flip-Flop SR
 
 # Exemplo de utilizando Flip-Flop's
 
