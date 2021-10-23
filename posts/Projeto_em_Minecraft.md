@@ -70,7 +70,7 @@ Além disso, a lâmpada deve apagar, caso o jogador pise novamente na placa para
 
 ![FF D](images/ff_d.jpeg)
 
-Dito isso, a lâmpada só irá acender caso o Flip-Flop esteja ativo(indica que a pessoa está dentro da casa) e quando a placa solar está ativa(indica que está de noite). Para isso, é preciso adicionar uma porta `AND` que conecte o Flip-Flop e o painel solar, o resultado dessa porta `AND` será conectado na lâmpada. O resultado é o seguinte:
+Dito isso, a lâmpada só irá acender caso o Flip-Flop esteja ativo (indica que a pessoa está dentro da casa) e quando a placa solar está ativa(indica que está de noite). Para isso, é preciso adicionar uma porta `AND` que conecte o Flip-Flop e o painel solar, o resultado dessa porta `AND` será conectado na lâmpada. O resultado é o seguinte:
 
 ![Circuito da Lâmpada](images/circ_lamp.jpeg)
 
@@ -92,4 +92,4 @@ No minecraft, o circuito de Redstone correspondende é:
 
 # Projeto Completo no Minecraft
 
-A seguir, iremos disponibilizar o link para download do Projeto funcionando dentro do Minecraft. Para você utilizar o mundo é necessário baixar o arquivo `.zip`, extrair o arquivo zipado. Após isso, com o Minecraft já instalado, copie a pasta extraída e cole na pasta `.minecraft` no seu computador. Pronto, entre no jogo e estará o mundo salvo para você utilizar!
+A seguir, iremos disponibilizar o link para download do Projeto funcionando dentro do Minecraft. Para você utilizar o mundo é necessário baixar o arquivo `.zip`, extrair o arquivo zipado. Após isso, com o Minecraft já instalado, copie a pasta extraída e cole na pasta `.minecraft/saves` no seu computador. Pronto, entre no jogo e estará o mundo salvo para você utilizar!
