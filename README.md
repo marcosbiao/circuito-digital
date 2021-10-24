@@ -14,6 +14,7 @@ O conteúdo não assume que o leitor tenha algum conhecimento prévido de circui
 - [Circuitos combinacionais](/posts/Circuitos_Combinacionais.md)
 - [Dispositivos com memória](/posts/Flip-Flops.md)
 - [Projeto: Smart House](/posts/Projeto_em_Minecraft.md)
+- [Lista com todos os projetos desenvolvidos](/projetos/README.md)
 
 ## Autores e Contribuições
 
