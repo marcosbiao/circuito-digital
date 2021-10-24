@@ -1,6 +1,6 @@
 # O que são circuitos digitais?
 
-Antes de falar sobre circuito digital, é necessário voltar um passo atrás e enteder o que é a **representação digital** e a diferença entre a **representação analógica**. Ambos são formas de representar dados, pórem suas características são diferentes. Um exemplo de aparelho que utilizia a representação análogica, é o termômetro de mercúrio, como este:
+Antes de falar sobre circuito digital, é necessário voltar um passo atrás e entender o que é a **representação digital** e a diferença entre a **representação analógica**. Ambos são formas de representar dados, pórem suas características são diferentes. Um exemplo de aparelho que utilizia a representação análogica, é o termômetro de mercúrio, como este:
 
 ![Termômetro](images/termometro.jpeg)
 
@@ -8,7 +8,7 @@ Neste aparelho, a representação da temperatura está relacionada diretamente c
 
 Já na representação digital, não é trabalhado com dados contínuos, e sim, por representações discretas. Ou seja, com dados que possue um determinado número de digitos fixos, que podemos identificar com precisão o seu valor. Por exemplo, em termomêtros digitais é mostrado dois digitos fixos para representar a temperatura, por exemplo 37°, ou seja, conseguimos ver exatamente a temperatura atual, sem nem uma ocilação relacionada a dispositivos mecânicos.
 
-Para representar os dados de forma digital, é utilizado o **sistema binário**. Enquanto no sistema númerico que conhecemos, o decimal, há 10 simbolos, os digitos de 0 a 9, no sistema binário há somente dois simbolos, 0 e 1. Apesar do sistema binário perecer diferente do que conhecemos, ele é muito semelhante, podemos somas seus números, subtrair e contar. Por exemplo, se formos contar de 0 a 5 e binário, seria dessa forma:
+Para representar os dados de forma digital, é utilizado o **sistema binário**. Enquanto no sistema númerico que conhecemos, o decimal, há 10 simbolos, os digitos de 0 a 9, no sistema binário há somente dois simbolos, 0 e 1. Apesar do sistema binário perecer diferente do que conhecemos, ele é muito semelhante: podemos somar, subtrair e contar seus números. Por exemplo, se formos contar de 0 a 5 em binário, seria dessa forma:
 
 Decimal | Binário
 --------|--------
