@@ -20,7 +20,7 @@ Esse conceito de pulsos é muito utilizado em conjunto com Flip-Flop's e outros 
 
 Flip-Flop(FF) é um nome genérico que se refere a vários dispositivos que tem características semelhante, no geral, todos esses dispositivos tem a capacidade de armazenar informação é são feitos apartir das portas lógicas que vimos anteriormente. Além disso, na maioria das vezes, esses dispositivos possuem uma entrada que é utilizada como Clock. 
 
-Iremos ver dois exemplos de dispositivos de Flip-Flop, eles não são os únicos que existem, pórem, farão com que o leitor possua uma idéia geral sobre esses dispositívos.
+Iremos ver um exemplos de dispositivos de Flip-Flop, ele não é o único que existe, pórem, fará com que o leitor possua uma idéia geral sobre esses dispositívos.
 
 ## Flip-Flop D
 
@@ -42,7 +42,24 @@ Nesse exemplo, é definido o estado do flip-flop como ativo. Ou seja, em um flip
 
 > A representação do flip-flop em minecraft, é um pouco complicado de entender, principalmente se o leitor não tem conhecimento dos blocos utilizados no minecraft, pórem, não é preciso se preocupar na forma como o flip-flop está descrito no minecraft, apenas no seu funcionamento.
 
-## Flip-Flop SR
+Além desse, existe outros dispositivos FF, todos eles possuem essa caraterística de armazenar um valor binário(ativo, desativo), alguns possue duas entradas, outros possuem três, todos eles possuem duas saídas, uma representa o estado do FF, outra o estado inverso. 
 
 # Exemplo de utilizando Flip-Flop's
+
+Como foi citado, um FF armazena apenas dois valores, o leitar pode afirmar que apenas dois valores têm pouca utilidade, poderia ser póssivel de armazenar mais valores, para isso, é neessário conectar mais FF em um único pulso de Clock. Veja um exemplo, onde é conectado 8 FF no mesmo pulso de clock:
+
+![8 FF formando um byte](images/um_byte_em_ff.gif)
+
+Agora podemos armazenar 8 valores binário, com isso, há `256`(`2 ^ 8`), valores possíveis para serem armazenados. Esse conjunto de 8 FF, formam um armazenamento de 8 bits, que é o que chamamos de um byte, em computação, um byte é suficiente para armazenar qualquer letra do alfabeto, ou os números positivos de 0 a 255.
+
+Com isso, podemos ver que ao combinar esses dispositivos, podemos aumentar muito nosso poder de armazenamento.
+
+# Posts Seguintes
+
+Agora que temos conhecimento sobre alguns conceitos básicos de circuitos, iremos utilizar todos eles para criar um circuito que nos ajude a criar uma casa inteligente no minecraft. Isso será feito no próximo post.
+
+ - O próximos post é: [Projeto: Smart House](Projeto_em_Minecraft.md)
+ - O post anterior a este é: [Circuitos combinacionais](Circuitos_Combinacionais.md)
+ - Seção com todos os artigos: [sumário](../README.md)
+
 
