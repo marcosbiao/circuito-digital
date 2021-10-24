@@ -43,12 +43,12 @@ nem de bloco para pó de restone, apenas de pó de redstone para bloco e de bloc
 
 ## Fontes de Energia   
 
-  As fontes de energia, como o próprio nome já diz, são responsáveis por gerar energia. 
- A seguir, podemos ver algumas das principais fontes de energia e suas características.
+As fontes de energia, como o próprio nome já diz, são responsáveis por gerar energia. 
+A seguir, podemos ver algumas das principais fontes de energia e suas características.
 
-## Alavanca
+### Alavanca
 
- As alavancas são umas das fontes de energia mais utilizadas pelos jogadores novatos 
+As alavancas são umas das fontes de energia mais utilizadas pelos jogadores novatos 
 devido a sua simplicidade e praticidade. Ela possui dois estados: para cima (desligado) e 
 para baixo (ligado), que podem ser mudados apenas pela interação direta dos jogadores. 
 Ou seja, ela irá gerar energia contínua somente quando um jogador abaixa-la diretamente. 
@@ -123,4 +123,11 @@ novamente, o repetidor retorna ao seu comportamento normal (ver imagens abaixo).
 ![Repetidor Bloqueado sem Energia](images/repetidor_2.jpeg) 
 
 ![Repetidor Bloqueado](images/repetidor_3.jpeg)
+
+# Posts Seguintes
+
+Esses são os conhecimentos básicos relacionados a minecraft, agora iremos ver no próximo post conceitos básicos sobre circuitos digitais, onde iremos complementar o entendimento utilizando os elementos vistos agora.
+
+ - O próximos post é: [Introdução a circuitos digitais e portas lógicas](Introducao-Portas_Logicas.md)
+ - Seção com todos os artigos: [sumário](../README.md)
 
