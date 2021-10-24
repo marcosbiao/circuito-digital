@@ -56,11 +56,11 @@ Da mesma forma, é possivel implementar todas as outras portas utilizando apenas
 
 Estas portas do exemplo também podem ser implementadas utilizando combinações de portas `NOR`.
 
-Com esses primeiros posts vimos as portas básicas, nos próximos iremos ver como criar circuitos mais complexos utilizando esses conhecimentos.
+# Posts Seguintes
 
-# Links:
+Com conhecimento de todas as portas que vimos até aqui, podemos combiná-las para projetar circuitos maiores e resolver problemas do mundo real. Iremos ver como isso acontece no post seguinte.
 
- - O próximos post é: []()
- - O post anterior a este é: []()
- - Seção com todos os artigos: [sumário](../)
+ - O próximos post é: [Circuitos Combinacionais](Circuitos_Combinacionais.md)
+ - O post anterior a este é: [Introdução sobre Circuitos](Introducao-Portas_Logicas.md)
+ - Seção com todos os artigos: [sumário](../README.md)
 
