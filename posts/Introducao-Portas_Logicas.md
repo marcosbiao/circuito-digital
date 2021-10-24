@@ -118,23 +118,31 @@ Isto quer dizer que a saida, que é chamada de `X` é definida como a porta `AND
 
 ![Porta lógica AND](images/and.png)
 
+Além disso, a representação algébrica do `AND` pode também ser definida apenas escrevendo as entradas uma ao lado da outra. Dessa forma
+
+```
+X = AB
+```
+
 Já o `OR` é escrito com o simbolo de soma, assim:
 
 ```
 X = A+B
 ```
 
-Isto é equivalente a um circuito formado por duas entradas `A` e `B` que alimantam um `OR` e sua saida `X`.
+Isto é equivalente a um circuito formado por duas entradas `A` e `B` que alimantam um `OR` e tem a saida `X`.
 
-A porta `NOT` é escrita como sua entrada com uma barra em cima. Por exemplo, o circuito onde temos duas entradas conectadas em um OR e a saida conectada em um `NOT` é descrito na forma gráfica e matemática a seguir:
+A porta `NOT` é escrita como sua entrada com uma barra em cima. Por exemplo, o circuito onde temos duas entradas conectadas em um `OR` e a saida conectada em um `NOT` é descrito na forma gráfica e matemática a seguir:
 
 ![OR e NOT](images/circuito-or-not.png)
 
 Perceba que é possivel conectar os componentes de forma que a saida de uma porta é usada como entrada para outro componente. Com essa ideia, é possivel criar circuitos complexos, da forma que se desejar.
 
-# Links:
+# Posts Seguintes
 
- - O próximos post é: []()
- - O post anterior a este é: []()
- - Seção com todos os artigos: [sumário](../)
+Aqui vimos conceitos básicos sobre circuitos digitais e algumas das portas lógicas mais importantes, iremos ver no artigo seguinte, algumas outras portas lógicas que também são utilizadas em circuitos lógicos.
+
+ - O próximos post é: [Portas lógicas: `NAND` e `NOR`](Portas_Logicas-Nand-Nor.md)
+ - O post anterior a este é: [Introdução sobre minecraft](Minecraft_e_Circuitos_de_Redstone.md)
+ - Seção com todos os artigos: [sumário](../README.md)
 
