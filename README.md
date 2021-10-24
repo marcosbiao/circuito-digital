@@ -1,22 +1,22 @@
 # circuito-digital
 
-Hello world github pages. 
+Esse projeto tem intuíto de ensinar de conceitos básicos sobre circuitos digitais, para isso será utilizado elementos do game Minecraft, onde será feito analogias entre circuitos digitais e estruturas semelhantes no game, com objetivo de tornar o aprendizado mais lúdico e divertido. 
 
-## post 1
+Serão alguns posts, onde no final será feito um projeto de circuitos digitais, nele será desenvolvido uma casa inteligente em minecraft, onde poderemos praticar os conceitos vistos durante o aprendizado.
 
-Fallow the rabbit [hole](/posts/post_1.md). 
+O conteúdo não assume que o leitor tenha algum conhecimento prévido de circuitos digitais, ou minecraft. Caso o leitor seja leigo em ambos os assuntos, pode iniciar a leitura pelo post [Introdução sobre minecraft](/posts/Minecraft_e_Circuitos_de_Redstone.md). Caso o leitor já tenha conhecimento básico de minecraft e redstone, pode iniciar nesse post [Introdução a circuitos digitais e portas lógicas](/posts/Introducao-Portas_Logicas.md).
 
-## topic 2
-
-Hello from topic 2.
-
-# Sumário
+## Sumário
 
 - [Introdução sobre minecraft](/posts/Minecraft_e_Circuitos_de_Redstone.md)
-- [Introdução e portas lógicas](/posts/Introducao-Portas_Logicas.md)
+- [Introdução a circuitos digitais e portas lógicas](/posts/Introducao-Portas_Logicas.md)
 - [Portas `NAND` e `NOR`](/posts/Portas_Logicas-Nand-Nor.md)
 - [Dispositivos com memória](/posts/Flip-Flops.md)
 - [Projeto: Smart House](/posts/Projeto_em_Minecraft.md)
+
+## Autores e Contribuições
+
+Esse conteúdo foi iniciativa de [Marcos bião](https://github.com/marcosbiao), com ajuda de [Raul](https://github.com/raulpy271) e [Melk](https://github.com/melkml). Caso o leitor tenha interesse em contribuir com o projeto, leia o [guia de contribuição](CONTRIBUTING.md). Caso queira sugerir alguma melhorar ou tirar alguma dúvida, crie um issue na nossa [página do github](https://github.com/marcosbiao/circuito-digital/issues).
 
 ## Refêrencia
 
@@ -25,3 +25,4 @@ Foram utilizados os seguintes materiais para consulta e referenciação:
 - [Sistemas digitais : princípios e aplicações / Ronald J. Tocci, Neal](https://www.amazon.com.br/Sistemas-Digitais-Princ%C3%ADpios-Ronald-Tocci/dp/854302501X)
 - [Introduction to Computer Organization: ARM Assembly Language Using the Raspberry Pi / Robert G. Plantz](https://bob.cs.sonoma.edu/IntroCompOrg-RPi/frontmatter-1.html)
 - [Minecraft Wiki](https://minecraft.fandom.com/wiki/Minecraft_Wiki)
+
