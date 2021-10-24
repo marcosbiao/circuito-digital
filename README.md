@@ -1,6 +1,6 @@
 # circuito-digital
 
-Esse projeto tem intuíto de ensinar de conceitos básicos sobre circuitos digitais, para isso será utilizado elementos do game Minecraft, onde será feito analogias entre circuitos digitais e estruturas semelhantes no game, com objetivo de tornar o aprendizado mais lúdico e divertido. 
+Esse projeto tem intuíto de ensinar conceitos básicos sobre circuitos digitais, para isso será utilizado elementos do game Minecraft, onde será feito analogias entre circuitos digitais e estruturas semelhantes no game, com objetivo de tornar o aprendizado mais lúdico e divertido. 
 
 Serão alguns posts, onde no final será feito um projeto de circuitos digitais, nele será desenvolvido uma casa inteligente em minecraft, onde poderemos praticar os conceitos vistos durante o aprendizado.
 
