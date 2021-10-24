@@ -11,6 +11,7 @@ O conteúdo não assume que o leitor tenha algum conhecimento prévido de circui
 - [Introdução sobre minecraft](/posts/Minecraft_e_Circuitos_de_Redstone.md)
 - [Introdução a circuitos digitais e portas lógicas](/posts/Introducao-Portas_Logicas.md)
 - [Portas `NAND` e `NOR`](/posts/Portas_Logicas-Nand-Nor.md)
+- [Circuitos combinacionais](/posts/Circuitos_Combinacionais.md)
 - [Dispositivos com memória](/posts/Flip-Flops.md)
 - [Projeto: Smart House](/posts/Projeto_em_Minecraft.md)
 
