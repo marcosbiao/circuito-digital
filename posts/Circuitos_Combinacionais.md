@@ -48,5 +48,11 @@ Após isso, todas as saídas das expressões `AND` serão conectadas a uma porta
 
 ![Exemplo somador - circuito final](images/somador-ex_4.jpeg)
 
-# Circuito para travar porta em minecraft
+# Posts Seguintes
+
+Com essa ideia, podemos criar uma variadade de circuitos, no final desses posts será utilizado essa ideia para fazer uma automação em minecraft. Pórem, antes de iniciarmos, iremos ver outros dispositivos e técnicas que irão complementar nosso conhecimento necessário para execução do projeto.
+
+ - O próximos post é: [Dispositivos com memória](Flip-Flops.md)
+ - O post anterior a este é: [Portas NAND e NOR](Portas_Logicas-Nand-Nor.md)
+ - Seção com todos os artigos: [sumário](../README.md)
 
