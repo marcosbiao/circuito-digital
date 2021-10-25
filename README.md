@@ -18,7 +18,7 @@ O conteúdo não assume que o leitor tenha algum conhecimento prévido de circui
 
 ## Autores e Contribuições
 
-Esse conteúdo foi iniciativa de [Marcos bião](https://github.com/marcosbiao), com ajuda de [Raul](https://github.com/raulpy271) e [Melk](https://github.com/melkml). Caso o leitor tenha interesse em contribuir com o projeto, leia o [guia de contribuição](https://github.com/marcosbiao/circuito-digital/blob/main/CONTRIBUTING.md). Caso queira sugerir alguma melhorar ou tirar alguma dúvida, crie um issue na nossa [página do github](https://github.com/marcosbiao/circuito-digital/issues).
+Esse conteúdo foi desenvolvido por [Raul](https://github.com/raulpy271) e [Melk](https://github.com/melkml) sobe a orientação de [Marcos bião](https://github.com/marcosbiao). Caso o leitor tenha interesse em contribuir com o projeto, leia o [guia de contribuição](https://github.com/marcosbiao/circuito-digital/blob/main/CONTRIBUTING.md). Caso queira sugerir alguma melhorar ou tirar alguma dúvida, crie um issue na nossa [página do github](https://github.com/marcosbiao/circuito-digital/issues).
 
 ## Refêrencia
 
