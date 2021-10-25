@@ -4,7 +4,7 @@ Esse projeto tem intuíto de ensinar conceitos básicos sobre circuitos digitais
 
 Serão alguns posts, onde no final será feito um projeto de circuitos digitais, nele será desenvolvido uma casa inteligente em minecraft, onde poderemos praticar os conceitos vistos durante o aprendizado.
 
-O conteúdo não assume que o leitor tenha algum conhecimento prévido de circuitos digitais, ou minecraft. Caso o leitor seja leigo em ambos os assuntos, pode iniciar a leitura pelo post [Introdução sobre minecraft](/posts/Minecraft_e_Circuitos_de_Redstone.md). Caso o leitor já tenha conhecimento básico de minecraft e redstone, pode iniciar nesse post [Introdução a circuitos digitais e portas lógicas](/posts/Introducao-Portas_Logicas.md).
+O conteúdo não assume que o leitor tenha algum conhecimento prévido de circuitos digitais, ou minecraft. Caso o leitor seja leigo em ambos os assuntos, pode iniciar a leitura pelo post [Introdução sobre minecraft](/posts/Minecraft_e_Circuitos_de_Redstone.md). Caso o leitor já tenha conhecimento básico de minecraft e redstone, pode iniciar nesse post [Introdução a circuitos digitais e portas lógicas](/posts/Introducao-Portas_Logicas.md). Também é possivel acessar todo o conteúdo através do [site](/https://marcosbiao.github.io/circuito-digital/).
 
 ## Sumário
 
