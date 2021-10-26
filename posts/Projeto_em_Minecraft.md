@@ -92,7 +92,7 @@ No minecraft, o circuito de Redstone correspondende é:
 
 # Projeto Completo no Minecraft
 
-Com isso, finalizamos o série de posts sobre o assunto. O leitor pode continuar a partir desse momentos explorando o nosso resultado usando o nosso mapa. Além disso, o leitor pode verificar [essa página](/projetos/README.md) onde temos mais projetos, ou [nesse link](https://github.com/marcosbiao/circuito-digital/blob/main/CONTRIBUTING.md) onde é dado instruções sobre como contribuir com esse blog.
+Com isso, finalizamos o série de posts sobre o assunto. O leitor pode continuar a partir desse momentos explorando o nosso resultado usando o nosso mapa. Além disso, o leitor pode verificar [essa página](../projetos/README.md) onde temos mais projetos, ou [nesse link](https://github.com/marcosbiao/circuito-digital/blob/main/CONTRIBUTING.md) onde é dado instruções sobre como contribuir com esse blog.
 
 ## Para usar nosso mapa
 
