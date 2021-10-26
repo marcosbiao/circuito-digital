@@ -92,6 +92,13 @@ No minecraft, o circuito de Redstone correspondende é:
 
 # Projeto Completo no Minecraft
 
-A seguir, iremos disponibilizar o link para download do Projeto funcionando dentro do Minecraft. Para você utilizar o mundo é necessário baixar o arquivo `.zip`, extrair o arquivo zipado. Após isso, com o Minecraft já instalado, copie a pasta extraída e cole na pasta `.minecraft/saves` no seu computador. Pronto, entre no jogo e estará o mundo salvo para você utilizar!
+Com isso, finalizamos o série de posts sobre o assunto. O leitor pode continuar a partir desse momentos explorando o nosso resultado usando o nosso mapa. Além disso, o leitor pode verificar [essa página](/projetos/README.md) onde temos mais projetos, ou [nesse link](https://github.com/marcosbiao/circuito-digital/blob/main/CONTRIBUTING.md) onde é dado instruções sobre como contribuir com esse blog.
 
-Link do mapa: https://drive.google.com/file/d/1sO7UO7Tma_iC0BeubE0-vtIyaKEPVyMv/view?usp=sharing
+## Para usar nosso mapa
+
+A seguir, iremos disponibilizar o link para download do Projeto funcionando dentro do Minecraft. Para você utilizar o mundo é necessário baixar o arquivo `.zip`, extrair o arquivo zipado. Após isso, com o Minecraft já instalado, copie a pasta extraída e cole na pasta `.minecraft/saves` no seu computador. Pronto, entre no jogo e estará o mundo salvo para você utilizar! [Link do mapa](https://drive.google.com/file/d/1sO7UO7Tma_iC0BeubE0-vtIyaKEPVyMv/view?usp=sharing).
+
+## Vídeo mostrando o mapa
+
+O vídeo mostrando o mapa com resultado final se encontra [aqui no youtube](https://www.youtube.com/watch?v=wxb0g6qZKGM).
+
